@@ -1,0 +1,7 @@
+project_id = "lzcpgzlzsbfaucnqqjne"
+
+[functions.detect-bpm]
+verify_jwt = false
+
+[functions.share-sequence]
+verify_jwt = true
