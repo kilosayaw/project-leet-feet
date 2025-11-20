@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: '/project-leet-feet/',
   plugins: [
     react(),
     mode === 'development' && componentTagger(),
